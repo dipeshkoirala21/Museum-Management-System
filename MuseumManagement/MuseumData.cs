@@ -8,6 +8,20 @@ namespace MuseumManagement
 {
     class MuseumData
     {
+        public MuseumData()
+        {
+        }
+
+        public MuseumData(string card_no, string day, string name, string in_time, string out_time, string total_duration)
+        {
+            this.card_no = card_no;
+            this.day = day;
+            this.name = name;
+            this.in_time = in_time;
+            this.out_time = out_time;
+            this.total_duration = total_duration;
+        }
+
         public string card_no { get; set; }
 
         public string day { get; set; }

@@ -22,6 +22,7 @@ namespace MuseumManagement
         {
             InitializeComponent();
            read_data_from_csv();
+            read_data_from_visitorsentry();
         }
 
         void ClearData()
@@ -127,6 +128,35 @@ namespace MuseumManagement
                         visitors_datagridview.Rows.Add(values[0], values[1], values[2], values[3], values[4], values[5], values[6]);
                         Console.WriteLine(values[0]);
                         vst.Add(data);
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Cannot read data from the file");
+            }
+
+        }
+        public void read_data_from_visitorsentry()
+        {
+            try
+            {
+                String file_path = @".\visitorsentry.csv";
+                using (var reader = new StreamReader(file_path))
+                {
+                    if (!reader.EndOfStream)
+                    {
+                        reader.ReadLine();
+                    }
+
+                    while (!reader.EndOfStream)
+                    {
+                        var line = reader.ReadLine();
+                        var values = line.Split(',');
+                        MuseumData entry = new MuseumData(values[0], values[1], values[2], values[3], values[4], values[5]);
+                        datagridview1.Rows.Add(values[0], values[1], values[2], values[3], values[4], values[5]);
+                        Console.WriteLine(values[0]);
+                        lst.Add(entry);
                     }
                 }
             }
@@ -375,7 +405,7 @@ namespace MuseumManagement
 
                             var qTotalTime = from date in values
                                              where date.Contains(days[i])
-                                             select values[6];
+                                             select values[5];
 
 
 
