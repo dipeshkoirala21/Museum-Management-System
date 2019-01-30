@@ -1,0 +1,10 @@
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\bin\Debug\MuseumManagement.exe.config
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\bin\Debug\MuseumManagement.exe
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\bin\Debug\MuseumManagement.pdb
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\obj\Debug\MuseumManagement.csprojAssemblyReference.cache
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\obj\Debug\MuseumManagement.Form1.resources
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\obj\Debug\MuseumManagement.Properties.Resources.resources
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\obj\Debug\MuseumManagement.csproj.GenerateResource.cache
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\obj\Debug\MuseumManagement.csproj.CoreCompileInputs.cache
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\obj\Debug\MuseumManagement.exe
+C:\Users\dipes\source\repos\MuseumManagement\MuseumManagement\obj\Debug\MuseumManagement.pdb
